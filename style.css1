@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    height: 100vh;
+    background: url("images/train-bg.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+/* Dark overlay for professional look */
+.overlay {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    height: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+
+header h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ddd;
+}
+
+.booking-container {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+}
+
+.booking-container h2 {
+    margin-bottom: 20px;
+}
+
+input, button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+}
+
+input {
+    background: rgba(255,255,255,0.9);
+}
+
+button {
+    background: #ff4b2b;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff2e00;
+}
+
+.train-card {
+    background: rgba(255,255,255,0.2);
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}

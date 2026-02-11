@@ -1,0 +1,7 @@
+{
+  name: "Express 101",
+  from: "New York",
+  to: "Chicago",
+  seats: 120,
+  price: 80
+}
